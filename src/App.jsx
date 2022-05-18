@@ -74,8 +74,9 @@ function Finished() {
         <a
           href="https://www.facebook.com/lawlawcmcm/posts/2945972242318995"
           target="_blank"
+          style="color: white;"
         >
-          Source
+          ที่มา
         </a>
       </p>
     </>
