@@ -46,13 +46,18 @@ function Finished() {
     "คุณยังไม่มีผู้ว่าในดวงใจ กรุณาตอบคำถามใหม่อีกครั้ง",
     "คุณรีบตอบเกินไป กรุณาตอบคำถามใหม่อีกครั้ง",
     "คุณใช้เวลาตอบนานเกินไป กรุณาตอบคำถามใหม่อีกครั้ง",
+    "คุณไม่ได้ตั้งใจตอบ กรุณาตอบคำถามใหม่อีกครั้ง",
   ];
 
-  for (var i = 0; i < 1000; i += 80) {
+  for (var i = 0; i < 900; i += 80) {
     setTimeout(() => {
-      setResult(results[Math.floor(Math.random() * results.length)]);
+      setResult(results[Math.floor(Math.random() * 4)]);
     }, i);
+
   }
+  setTimeout(() => {
+    setResult(results[Math.floor(Math.random() * results.length)]);
+  }, 1000);
 
   return (
     <>
